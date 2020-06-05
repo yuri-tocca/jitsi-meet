@@ -175,7 +175,7 @@ class Filmstrip extends Component <Props> {
         // will get updated without replacing the DOM. If the known DOM gets
         // modified, then the views will get blown away.
 
-        const filmstripStyle = { };
+        const filmstripStyle = {};
         const filmstripRemoteVideosContainerStyle = {};
         let remoteVideoContainerClassName = 'remote-videos-container';
 
@@ -184,6 +184,11 @@ class Filmstrip extends Component <Props> {
             // Adding 18px for the 2px margins, 2px borders on the left and right and 5px padding on the left and right.
             // Also adding 7px for the scrollbar.
             filmstripStyle.maxWidth = (interfaceConfig.FILM_STRIP_MAX_HEIGHT || 120) + 25;
+            break;
+        case LAYOUTS.fullyHideFilmStrip:
+            // Adding 18px for the 2px margins, 2px borders on the left and right and 5px padding on the left and right.
+            // Also adding 7px for the scrollbar.
+            filmstripStyle.displauy ='none';
             break;
         case LAYOUTS.TILE_VIEW: {
             // The size of the side margins for each tile as set in CSS.

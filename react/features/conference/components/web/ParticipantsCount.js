@@ -1,4 +1,5 @@
 // @flow
+/* global interfaceConfig */
 
 import React, { PureComponent } from 'react';
 import type { Dispatch } from 'redux';
@@ -28,6 +29,8 @@ type Props = {
      */
     dispatch: Dispatch<any>,
 };
+
+
 
 /**
  * ParticipantsCount react component.
@@ -68,8 +71,12 @@ class ParticipantsCount extends PureComponent<Props> {
      * @inheritdoc
      * @returns {ReactElement}
      */
+
+
     render() {
-        return (
+        const noParticipantCountDisplay = interfaceConfig.noParticipantCountDisplay;
+            console.log(noParticipantCountDisplay)
+        return noParticipantCountDisplay ? (
             <div
                 className = 'participants-count'
                 onClick = { this._onClick }>
@@ -78,7 +85,7 @@ class ParticipantsCount extends PureComponent<Props> {
                 </span>
                 <span className = 'participants-count-icon' />
             </div>
-        );
+        ) : null;
     }
 }
 

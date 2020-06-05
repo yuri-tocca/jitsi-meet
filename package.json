@@ -1,7 +1,8 @@
 {
   "name": "jitsi-meet",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A sample app for the Jitsi Videobridge",
+  "main": "build/external_api.min.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/jitsi/jitsi-meet"

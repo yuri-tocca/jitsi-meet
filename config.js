@@ -96,6 +96,8 @@ var config = {
     // sent).
     // startAudioOnly: false,
 
+     audioPermissionRequired: true,
+
     // Every participant after the Nth will start audio muted.
     // startAudioMuted: 10,
 
