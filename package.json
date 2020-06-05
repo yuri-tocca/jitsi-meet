@@ -104,7 +104,8 @@
     "@babel/plugin-transform-flow-strip-types": "7.0.0",
     "@babel/preset-env": "7.1.0",
     "@babel/preset-flow": "7.0.0",
-    "babel-eslint": "10.0.1"
+    "babel-eslint": "10.0.1",
+    "string-replace-loader": "2.1.1"
   },
   "devDependencies": {
     "@babel/core": "7.5.5",
