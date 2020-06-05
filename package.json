@@ -96,7 +96,8 @@
     "windows-iana": "^3.1.0",
     "xmldom": "0.1.27",
     "zxcvbn": "4.4.2",
-    "webpack-bundle-analyzer": "3.4.1"
+    "webpack-bundle-analyzer": "3.4.1",
+    "babel-loader": "8.0.4"
   },
   "devDependencies": {
     "@babel/core": "7.5.5",
@@ -135,7 +136,6 @@
     "webpack-bundle-analyzer": "3.4.1",
     "webpack-cli": "3.3.11",
     "webpack-dev-server": "3.11.0",
-    "babel-loader": "8.0.4"
   },
   "engines": {
     "node": ">=8.0.0",
