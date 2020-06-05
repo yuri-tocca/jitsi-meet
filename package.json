@@ -97,7 +97,14 @@
     "xmldom": "0.1.27",
     "zxcvbn": "4.4.2",
     "webpack-bundle-analyzer": "3.4.1",
-    "babel-loader": "8.0.4"
+    "babel-loader": "8.0.4",
+    "@babel/core": "7.5.5",
+    "@babel/plugin-proposal-class-properties": "7.1.0",
+    "@babel/plugin-proposal-export-namespace-from": "7.0.0",
+    "@babel/plugin-transform-flow-strip-types": "7.0.0",
+    "@babel/preset-env": "7.1.0",
+    "@babel/preset-flow": "7.0.0",
+    "babel-eslint": "10.0.1"
   },
   "devDependencies": {
     "@babel/core": "7.5.5",
