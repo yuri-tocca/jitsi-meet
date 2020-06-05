@@ -75,7 +75,6 @@ class ParticipantsCount extends PureComponent<Props> {
 
     render() {
         const noParticipantCountDisplay = interfaceConfig.noParticipantCountDisplay;
-            console.log(noParticipantCountDisplay)
         return noParticipantCountDisplay ? (
             <div
                 className = 'participants-count'
